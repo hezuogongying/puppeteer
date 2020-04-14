@@ -22,7 +22,7 @@ module.exports = {
   CDPSession: require('./Connection').CDPSession,
   ConsoleMessage: require('./Page').ConsoleMessage,
   Coverage: require('./Coverage').Coverage,
-  Dialog: require('./Dialog').Dialog,
+  Dialog: require('./Dialog'),
   ElementHandle: require('./JSHandle').ElementHandle,
   ExecutionContext: require('./ExecutionContext').ExecutionContext,
   FileChooser: require('./Page').FileChooser,
